@@ -1,0 +1,92 @@
+/* updated background color by adjusting the background color, margin, and padding on the body */
+body{
+  Margin:0px;
+  padding:0px;
+  background-color:#232b2b;
+}
+
+/* I wanted the text to be more centered, so I adjusted the margin to my desired size */
+main{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* I added a lighter grey background to my header and adjusted margin and padding */
+header{
+  background-color: #000000;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+hr{
+  line-height: "20px";
+}
+em{
+  color: #ffffff
+}
+
+body{
+  color:#ffffff
+}
+/* I wanted all my paragraphs in my main to align to the left  */
+main>p{
+  text-align: left;
+}
+
+/* I wanted my header1 and header2 to have cursive font, centered, and different color */
+h1,h2{
+font-family:cursive;
+text-align: center;
+}
+
+/* I wanted to align my unordered list to the left */
+ul{
+  text-align: left;
+  color:#e3ae57
+}
+
+ol{
+  text-align: left;
+  color:#e3ae57;
+}
+
+/* I wanted my header 1 font to be size 48px */
+h1{
+  font-size:48px;
+  color:#dc3d24;
+}
+
+/* I wanted my header 2 font to be 32 px */
+h2{
+  font-size:32px;
+  color: #e3ae57;
+}
+
+h3,h4{
+  color:#e59866;
+}
+
+/* I wantedt to changed the background to my footer */
+footer{
+  background: #000000;
+  margin-bottom: 0px;
+  padding-bottom:50px;
+  height: auto;
+  color:#dc3d24;
+
+}
+
+/* I created a class that centers my text */
+.center{
+  text-align: center;
+}
+
+/* I created a class that rounds my image to a certain px and set the height rule and width of my photograph*/
+.circle-image{
+  border-radius: 100px;
+}
+
+.height-width{
+  text-align: center;
+  height: 150px;
+  width: 100%;
+}
